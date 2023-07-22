@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Flutter App</title>
+</head>
+<body>
+    <h1>Welcome to My Flutter App</h1>
+    <script>
+        // Function to check if the app is installed
+        function isAppInstalled() {
+            // Implement the check using JavaScript (e.g., custom user agent detection)
+            // Return true if the app is installed, false otherwise
+            // For example:
+            // return window.navigator.userAgent.includes("MyFlutterApp");
+            // You need to replace "MyFlutterApp" with your custom user agent string.
+        }
+
+        // Function to redirect users to the app store link
+        function redirectToAppStore() {
+            // Replace "your_app_store_link_here" with the actual link to your app in the app store
+            window.location.href = "google.com";
+        }
+
+        // Check if the app is installed, and redirect if it's not
+        if (!isAppInstalled()) {
+            redirectToAppStore();
+        }
+    </script>
+</body>
+</html>
