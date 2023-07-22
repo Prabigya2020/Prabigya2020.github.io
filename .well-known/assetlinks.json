@@ -3,6 +3,6 @@
   "target": {
     "namespace": "android_app",
     "package_name": "com.example.mx_clone",
-    "sha256_cert_fingerprints": ["aedd1e0c24ac557bbb3730b84e2eb7daaab1980b"]
+    "sha256_cert_fingerprints": ["988650c8c43dbf1ac4ac05b898012188f9fbd1a5"]
   }
 }]
