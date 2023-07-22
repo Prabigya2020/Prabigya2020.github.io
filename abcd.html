@@ -23,8 +23,10 @@
 
         // Check if the app is installed, and redirect if it's not
         if (!isAppInstalled()) {
+            console.log("App not present");
             redirectToAppStore();
         }
+        else{console.log("App present");}
     </script>
 </body>
 </html>
